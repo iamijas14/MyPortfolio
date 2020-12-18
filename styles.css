@@ -11,6 +11,7 @@
 :root{
     --primary-color:red;
     --dark-gray:brown;
+    --off-white: #F3F4F6;
 }
 
 body{
@@ -112,6 +113,21 @@ hr{
 /* .her .her-heading .heading-change{
     color: var(--primary-color);
 } */
+
+/* section */
+
+.section{
+    padding: 2rem;
+}
+
+.section h2{
+    text-align: center;
+    
+}
+
+.ow{
+    background-color: var(--off-white);
+}
 
 
 
