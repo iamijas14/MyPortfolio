@@ -6,6 +6,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Libre+Baskerville&display=swap');
 
+/* root element */
+
+:root{
+    --primary-color:red;
+}
+
 body{
     font-family: 'Cabin', sans-serif;
 font-family: 'Libre Baskerville', serif;
@@ -21,8 +27,27 @@ font-family: 'Libre Baskerville', serif;
 .container-center{
     max-width:600px;
     margin: auto;
-   
+   }
+
+/* links */
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
 }
+
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+
 
 
 
