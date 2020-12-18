@@ -10,6 +10,7 @@
 
 :root{
     --primary-color:red;
+    --dark-gray:brown;
 }
 
 body{
@@ -89,4 +90,29 @@ hr{
 .navigation .link-active{
     font-weight: bold;
 }
+
+/* header */
+
+.her{
+    padding: 2rem;
+}
+
+.her .her-img{
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+.her .her-heading{
+    text-align: center;
+    color: var(--dark-gray);
+    padding-top: 1rem;
+}
+
+/* .her .her-heading .heading-change{
+    color: var(--primary-color);
+} */
+
+
+
 
