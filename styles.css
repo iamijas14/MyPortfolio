@@ -12,11 +12,13 @@
     --primary-color:red;
     --dark-gray:brown;
     --off-white: #F3F4F6;
+    --gray:#6B7280;
 }
 
 body{
     font-family: 'Cabin', sans-serif;
 font-family: 'Libre Baskerville', serif;
+margin: 0px;
 }
 
 /* containers */
@@ -128,6 +130,28 @@ hr{
 .ow{
     background-color: var(--off-white);
 }
+
+/* footer */
+
+.footer{
+    background-color: var(--gray);
+    padding: 2rem;
+    text-align: center;
+    color:white;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+} 
+
+.footer .link{
+    color:white;
+}
+
+.footer ul{
+    padding-inline-start:0px;
+}
+
+
+
 
 
 
