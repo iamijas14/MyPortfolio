@@ -64,6 +64,29 @@ hr{
     padding: 0.5rem;
 }
 
+/* navigation */
 
+.navigation{
+    background-color: var(--primary-color);
+    color:white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
 
+.navigation .link{
+    color:white;
+}
+
+.navigation .nav-pill{
+    text-align: right;
+}
+
+.navigation .nav-name{
+    font-weight: bold;
+    font-size: 1.05rem;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
 
