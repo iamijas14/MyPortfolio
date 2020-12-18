@@ -1,19 +1,15 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap'); */
+
+/* body{
+    font-family: 'Libre Baskerville', serif;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Libre+Baskerville&display=swap');
+
 body{
-    color: red;
+    font-family: 'Cabin', sans-serif;
+font-family: 'Libre Baskerville', serif;
 }
 
-h1{
-    color: blue;
-}
 
-h2{
-    color: green;
-}
 
-#lib-header{
-    color: pink;
-}
-
-.para{
-    color:yellow;
-}
