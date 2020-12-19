@@ -24,7 +24,9 @@ margin: 0px;
 /* spaces */
 
 .space{
-    padding: 2rem 2rem;
+    padding: 2rem;
+    padding-top: 0rem;
+    padding-bottom: 2.5rem;
 }
 
 /* containers */
@@ -118,6 +120,24 @@ hr{
     color: var(--dark-gray);
     padding-top: 1rem;
 }
+
+/* blog  */
+
+.blog .blog-img{
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.blog .her-heading{
+    text-align: center;
+    /* color: var(--dark-gray); */
+    /* padding: 0rem; */
+}
+.section1{
+    padding: 1rem;
+}
+
 
 /* .her .her-heading .heading-change{
     color: var(--primary-color);

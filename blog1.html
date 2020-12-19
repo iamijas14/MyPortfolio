@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind</title>
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+
+    <nav class="navigation container">
+        <div class="nav-name">IAMIJAS2714</div>
+        <ul class="list-non-bullet nav-pill">
+            <li class="list-item-inline">
+                <a class="link" href="/">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="projects.html">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link link-active" href="blogs.html">Blogs</a>
+            </li>
+        </ul>
+    </nav>
+
+    <header class="blog">
+        <img class="blog-img" src="/images/img2.png" />
+        <h1 class="her-heading"> <span style="color: var(--primary-color)">Tailwind CSS.</span></h1>
+    </header>
+
+    <section class="section1">
+        <div class="container container-center">
+            <p>Almost exactly 18 months ago we released Tailwind CSS v1.0, which signalled a commitment to stability while continuing to push the boundaries with exciting new features in every minor release.
+
+            Over the course of those 18 months we released nine minor versions that added features like placeholder styling, screenreader visibility, CSS grid, transitions, transforms, animations, layout utilities, integrated tree-shaking, gradients, and tons more.
+        
+            The palette even includes 5 different shades of gray now, so you can choose "blue gray" if you want something really cool, or go all the way to "warm gray" for something with a lot more brown in it.
+        
+            We configure a well-balanced 8-color palette for you out of the box, but the complete color palette lives in a new tailwindcss/colors module that you can import at the top of your config file to curate your own custom palette however you like:
+        
+            <strong>Dark mode</strong>
+            Ever since iOS added native dark mode all you dark mode nerds haven't been able to leave me alone about adding it to Tailwind. Well you did it, it's here, you win.
+            
+            Open up your tailwind.config.js file and flip darkMode to media:
+        
+            <strong>New outline ring utilities</strong>
+            You know how the outline property ignores border radius and pretty much just always looks bad? The ring utilities are our attempt to will a better solution into existence through blood, sweat, and tears.
+            
+            They work a lot like the border utilities, except they add a solid box-shadow rather than a border so they don't impact the layout:</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-header">Connect socially</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="link" href="https://twitter.com/iamijas2714"> Twitter</a></li>
+             <li class="list-item-inline"><a class="link" href="https://github.com/iamijas14">Github</a></li>
+             <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/feed/">LinkedIn</a></li>
+        </ul>
+    </footer>
+    
+</body>
+</html>
