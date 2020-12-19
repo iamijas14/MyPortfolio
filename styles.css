@@ -9,10 +9,10 @@
 /* root element */
 
 :root{
-    --primary-color:red;
-    --dark-gray:brown;
-    --off-white: #F3F4F6;
-    --gray:#6B7280;
+    --primary-color: #6D28D9;
+    --dark-gray: #A78BFA;
+    --off-white: #F5F3FF; 
+    --gray: #6366F1;
 }
 
 body{
@@ -108,7 +108,7 @@ hr{
 }
 
 .her .her-img{
-    max-width: 400px;
+    max-width: 550px;
     display: block;
     margin: auto;
 }
@@ -145,8 +145,8 @@ hr{
     padding: 2rem;
     text-align: center;
     color:white;
-    border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+    margin-top: 0.5rem;
 } 
 
 .footer .footer-header{
