@@ -110,9 +110,10 @@ hr{
 }
 
 .her .her-img{
-    max-width: 350px;
+    max-width: 340px;
     display: block;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .her .her-heading{
