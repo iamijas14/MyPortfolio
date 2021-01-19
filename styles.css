@@ -147,7 +147,8 @@ hr{
 /* section */
 
 .section{
-    padding: 2rem;
+    
+    padding:2rem;
 }
 
 .section h2{
@@ -183,6 +184,15 @@ hr{
     padding-inline-start:0px;
 }
 
+.blog-link{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    
+}
 
 
 
